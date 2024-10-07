@@ -10,7 +10,11 @@ The application will be developed using a web-based approach and will focus on s
 
 Key Features:
 -------------
-. User Registration and Management: Users can add, edit, and delete their details. . CRUD Operations: Full CRUD functionality is implemented to manage user data. . Data Validation: Proper validation is enforced for each input field, including format checks for email and phone numbers. . Responsive Design: The user interface is responsive and can be used across different devices. . User-Friendly Error Handling: Clear validation messages are displayed for any incorrect input.
+. User Registration and Management: Users can add, edit, and delete their details. 
+. CRUD Operations: Full CRUD functionality is implemented to manage user data. 
+. Data Validation: Proper validation is enforced for each input field, including format checks for email and phone numbers. 
+. Responsive Design: The user interface is responsive and can be used across different devices. 
+. User-Friendly Error Handling: Clear validation messages are displayed for any incorrect input.
 
 Technology Stack:
 -----------------
@@ -41,24 +45,32 @@ Data Validation:
 . Address should be valid and alphanumeric.
 
 Solution Architecture:
+----------------------
   Layered Architecture:
   ---------------------
   . Presentation Layer (Frontend): Handle user interactions and provide a responsive design.
   . Business Logic Layer (Backend): Spring Boot will handle the core business logic, including CRUD operations and validation.
   . Data Layer (Database): MySQL will be used for persistent data storage, where user details are stored and managed.
+  
 Design Decisions:
 -----------------
-. Spring Boot is chosen for the backend for its scalability, ease of integration with databases, and built-in validation support. . MySQL is selected based on the flexibility of relational databases. . Hibernate Validator will ensure that all user inputs are validated server-side before being saved to the database.
+. Spring Boot is chosen for the backend for its scalability, ease of integration with databases, and built-in validation support. 
+. MySQL is selected based on the flexibility of relational databases. 
+. Hibernate Validator will ensure that all user inputs are validated server-side before being saved to the database.
 
 Prerequisites:
+-------------
 Backend:
 --------
   . Java 17
   . Maven/ for dependency management
   . Spring Boot Starter (via Maven)
 Database:
+---------
    . MySQL installed or available through a cloud provider.
+   
 Build and Run:
+--------------
 Backend (Spring Boot):
 ----------------------
 Clone the repository: git clone https://github.com/your-user/user-management-app.git

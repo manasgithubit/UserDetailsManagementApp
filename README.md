@@ -40,8 +40,8 @@ CRUD Operations:
 Data Validation:
 ----------------
 . First name and last name must contain only alphabetic characters. 
-. Phone numbers must follow a predefined format (e.g., +CountryCode-4394844). 
-. Email IDs must follow a standard email format (e.g.,assh@191.com). 
+. Phone numbers must follow a predefined format (e.g., +CountryCode- 9388374932). 
+. Email IDs must follow a standard email format (e.g., jdury93@gmail.com). 
 . Address should be valid and alphanumeric.
 
 Solution Architecture:
@@ -84,12 +84,13 @@ Documentation:
 --------------
 API Documentation: The API endpoints are documented using Postman OpenAPI. Visit /Postman/ for the interactive documentation. Database Design: The user details are stored in a user collection/table with the following structure:
 
-      ID: 101
-      First Name: Manas
-      Last Name: Sahoo
-      Phone Number: 4394844
-      Email: assh@191
-      Address: Odisha
+{
+    "id":103,
+    "firstname":"Alok",
+    "lastname":"Sahoo",
+    "phonenum":9388374932,
+    "email":"jdury93@gmail.com"
+}
 Source Code:
 ------------
 Repository: [Github - https://github.com/manasgithubit/UserDetailsManagementApp.git]
